@@ -1,5 +1,6 @@
 package com.example.demo.service.impl;
 
+import org.springframework.context.annotation.Primary;
 import com.example.demo.dto.ProdutoRequestDTO;
 import com.example.demo.dto.ProdutoResponseDTO;
 import com.example.demo.exception.ProdutoNotFoundException;
@@ -15,6 +16,7 @@ import java.math.RoundingMode;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Primary
 @Service
 public class ProdutoServiceImpl implements ProdutoService {
 
