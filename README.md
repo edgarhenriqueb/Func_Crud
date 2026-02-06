@@ -1,81 +1,138 @@
-# Bootcamp Java
+REPOSITÓRIO DE PROJETOS – BOOTCAMP & ESTUDOS EM DESENVOLVIMENTO
 
-Este repositório reúne as atividades práticas desenvolvidas durante um Bootcamp de Java, com foco no aprendizado da linguagem, Programação Orientada a Objetos (POO) e aplicação prática por meio de projetos de console, incluindo um CRUD de funcionários e exercícios de POO.
+Este repositório reúne diversos projetos desenvolvidos ao longo de estudos, bootcamps e práticas acadêmicas, com foco em backend, frontend, Java, Spring Boot, automação e cloud (Azure).
 
-O objetivo principal é consolidar os conceitos fundamentais da linguagem Java por meio de exercícios e projetos práticos, permitindo ao usuário praticar lógica de programação, estruturas de controle e manipulação de objetos.
+O objetivo é centralizar exercícios, projetos práticos e aplicações completas, servindo como portfólio e material de estudo contínuo.
 
-## Estrutura do Repositório
+==================================================
 
-```text
-Bootcamp_java/
-├── Atv_poo/       # Exercícios de POO (Pessoa, Jogador de Futebol, Elevador)
-├── Crud_func/     # Projeto CRUD de funcionários via terminal
-├── out/           # Arquivos compilados gerados pelo ambiente de desenvolvimento
-└── README.md      # Este arquivo
-```
-## Descrição das Pastas
+ESTRUTURA GERAL DO REPOSITÓRIO
 
-### Atv_poo
+.github/workflows/
+.idea/
+Atv_poo/
+Crud_func/
+Desen_Web/
+bootcamp simulado/
+out/production/Func_Crud/
+springboot/
+Func_Crud.iml
+README.md
 
-Esta pasta contém atividades voltadas para Programação Orientada a Objetos em Java.  
-Os exercícios abordam os seguintes conceitos:
+==================================================
 
-- Criação e utilização de classes e objetos  
-- Encapsulamento  
-- Construtores  
-- Métodos e manipulação de atributos  
-- Organização e estruturação do código  
-- Boas práticas em POO  
+DESCRIÇÃO DAS PASTAS
 
-As atividades incluem:
+.github/workflows
+Contém pipelines de CI/CD utilizando GitHub Actions, com foco em build e deploy automático de aplicações Java para o Azure App Service.
 
-1. **Cadastro de Pessoa**  
-   Permite registrar uma pessoa com nome, data de nascimento e altura, exibindo informações formatadas.
+--------------------------------------------------
 
-2. **Cadastro de Jogador de Futebol**  
-   Permite registrar um jogador com nome, posição, data de nascimento, nacionalidade, altura e peso, exibindo todas as informações.
+.idea
+Arquivos de configuração da IDE IntelliJ IDEA utilizados apenas para desenvolvimento local.
 
-3. **Simulação de Elevador**  
-   Controla um elevador em um prédio, permitindo entrar e sair pessoas, subir e descer andares e exibir o status atual do elevador.
+--------------------------------------------------
 
-Esses exercícios fortalecem a base conceitual necessária para desenvolver aplicações em Java, reforçando a lógica de programação e a manipulação de objetos.
+Atv_poo
+Atividades práticas relacionadas à disciplina de Programação Orientada a Objetos (POO), abordando:
+- Classes e objetos
+- Encapsulamento
+- Herança
+- Polimorfismo
+- Boas práticas em Java
 
-### Crud_func
+--------------------------------------------------
 
-Esta pasta contém um CRUD completo de funcionários, executado via console, aplicando conceitos de POO e lógica de programação.
+Crud_func
+Projeto de CRUD funcional, focado em:
+- Lógica de negócio
+- Estruturação de camadas
+- Operações CRUD (Create, Read, Update, Delete)
 
-**Funcionalidades implementadas:**
+--------------------------------------------------
 
-- Cadastro de funcionários com ID, nome, CPF, cargo e status ativo/inativo  
-- Listagem de funcionários em tabela no console  
-- Atualização de dados de um funcionário existente  
-- Exclusão de funcionários  
-- Menu interativo para navegação fácil pelo console  
+Desen_Web
+Projetos e exercícios relacionados a Desenvolvimento Web, incluindo:
+- HTML
+- CSS
+- JavaScript
+- Criação de páginas estáticas
 
-Este projeto aplica de forma prática conceitos fundamentais de Java, como:
+--------------------------------------------------
 
-- POO (classes, objetos, métodos)  
-- Estruturas de controle (if, switch, loops)  
-- Coleções e arrays  
-- Interação com o usuário via console  
+bootcamp simulado
+Pasta utilizada paraexercícios de bootcamp, envolvendo:
+- Resolução de problemas
+- Estruturação de projetos
+- Desafios técnicos
 
-### out
+--------------------------------------------------
 
-Diretório gerado automaticamente pelo ambiente de desenvolvimento, contendo arquivos compilados do projeto.
+out/production/Func_Crud
+Diretório gerado automaticamente pela IDE contendo arquivos compilados do projeto Func_Crud.
+Não é editado manualmente.
 
-## Como Executar os Projetos
+--------------------------------------------------
 
-### Pré-requisitos
+springboot
+Pasta que concentra projetos desenvolvidos com Spring Boot, incluindo:
+- APIs REST
+- CRUD completo de produtos
+- DTOs, Services e Repositories
+- Integração com banco de dados
+- Swagger para documentação
+- Interface web simples
+- Deploy em Azure App Service
 
-- Java Development Kit (JDK) versão 8 ou superior  
-- IDE Java (IntelliJ IDEA, Eclipse, VS Code) ou terminal configurado com Java  
+Projeto em produção:
+https://bootcamp-azure-e8g8btc9b6bahphz.brazilsouth-01.azurewebsites.net/
 
-### Execução
+--------------------------------------------------
 
-```bash
-# 1. Abra a pasta do projeto na IDE ou terminal
-# 2. Compile os arquivos .java
-javac src/*.java
+Func_Crud.iml
+Arquivo de configuração do projeto Java para a IDE.
 
-# 3. Execute a classe principal correspondente
-java src.Main
+==================================================
+
+EXECUÇÃO LOCAL (GERAL)
+
+Requisitos:
+- Java 17 ou superior
+- Maven
+- IDE (IntelliJ, Eclipse ou VS Code)
+
+Exemplo genérico de execução:
+mvn clean package
+java -jar target/nome-do-projeto.jar
+
+==================================================
+
+OBJETIVO DO REPOSITÓRIO
+
+- Centralizar projetos desenvolvidos no bootcamp
+- Consolidar aprendizado em Java, Spring Boot e Web
+- Praticar boas práticas de desenvolvimento
+- Servir como portfólio técnico
+- Evoluir continuamente com novos projetos
+
+==================================================
+
+TECNOLOGIAS MAIS UTILIZADAS
+
+- Java
+- Spring Boot
+- Maven
+- HTML
+- CSS
+- JavaScript
+- Git e GitHub
+- GitHub Actions
+- Azure App Service
+- H2 Database
+
+==================================================
+
+AUTOR
+
+Edgar Baudel
+
